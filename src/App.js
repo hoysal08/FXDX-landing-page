@@ -8,6 +8,7 @@ import Features from "./components/Features";
 import Exchange from "./components/Exchange";
 import Investors from "./components/Investors";
 import Footer from "./components/Footer";
+import { useEffect } from "react";
 
 function App() {
     return (

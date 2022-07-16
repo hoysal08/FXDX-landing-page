@@ -4,6 +4,7 @@ import "./Exchange.css";
 const Exchange = () => {
     return (
         <div className="exchange-container">
+            <img className="dpurple-gradient" src="./purple-full.png" alt="" />
             <div className="exchange text-center">
                 <h3 className="section-header">FXDX EXCHANGE</h3>
                 <h2 className="section-main-heading">

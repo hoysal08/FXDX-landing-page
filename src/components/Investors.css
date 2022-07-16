@@ -1,9 +1,19 @@
 .investor-container {
     margin: 230px 0;
+    position: relative !important;
 }
 .investor {
     width: 80%;
     margin: 0 auto;
+    position: relative;
+    z-index: 5 !important;
+}
+
+.dgreen-gradient {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 0 !important;
 }
 
 @media screen and (max-width: 768px) {

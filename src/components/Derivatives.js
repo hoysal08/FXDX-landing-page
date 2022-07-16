@@ -15,6 +15,7 @@ const Derivatives = () => {
                 </p>
                 <img className="derivate-img" src="./derivate.png" alt="" />
             </div>
+            <img className="dpurple-gradient" src="./purple-full.png" alt="" />
         </div>
     );
 };

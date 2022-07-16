@@ -1,6 +1,7 @@
 .exchange-container {
     margin-bottom: 100px;
     padding: 0 50px;
+    position: relative;
 }
 
 .exchange-img,
@@ -15,10 +16,18 @@
     -webkit-user-drag: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    position: relative;
 }
 
 .exchange-img-mob {
     display: none;
+}
+
+.dpurple-gradient {
+    position: absolute;
+    top: 10px;
+    left: -150px;
+    z-index: 0 !important;
 }
 
 @media screen and (max-width: 800px) {

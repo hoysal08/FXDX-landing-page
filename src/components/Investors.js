@@ -37,6 +37,7 @@ const Investors = () => {
                 </p>
                 <InvestorsImg items={investorsImg}></InvestorsImg>
             </div>
+            <img className="dgreen-gradient" src="./green.png" alt="" />
         </div>
     );
 };

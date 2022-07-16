@@ -37,6 +37,8 @@ const Features = () => {
     ];
     return (
         <div className="features-container">
+            <img className="dgreen-gradient" src="./green.png" alt="" />
+
             <div className="features text-center">
                 <h3 className="section-header">FEATURES</h3>
                 <h2 className="section-main-heading">FASTEST, MOST POWERFUL</h2>
@@ -44,8 +46,12 @@ const Features = () => {
                     We built the fastest and most powerful decentralized
                     exchange ever
                 </p>
-                <FeatureItems items={featureItems}></FeatureItems>
+                <FeatureItems
+                    className="fi"
+                    items={featureItems}
+                ></FeatureItems>
             </div>
+            <img className="dpurple-gradient" src="./purple-full.png" alt="" />
         </div>
     );
 };
