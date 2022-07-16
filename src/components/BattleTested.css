@@ -1,0 +1,138 @@
+.battle-tested-container {
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 0;
+}
+.battle-tested {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btCards div {
+    /* border: 1px solid gray; */
+    min-width: 556px;
+    height: 316px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0 12px;
+    margin-top: 50px;
+}
+
+.btCards .left {
+    background: url("../../public/bt-left.png") no-repeat center center/cover;
+}
+
+.btCards .right {
+    background: url("../../public/bt-right.png") no-repeat center center/cover;
+}
+
+.btCards h3 {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "SF";
+    font-size: 2.1rem;
+    letter-spacing: 1.7px;
+    margin: 0;
+}
+
+.btCards h2 {
+    font-family: "SF";
+    font-size: 3rem;
+    letter-spacing: 1.8px;
+    margin: 22px 0;
+}
+
+.btCards p {
+    color: rgba(255, 255, 255, 0.4);
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: "SF";
+    font-size: 1.3rem;
+    letter-spacing: 0.7px;
+}
+
+.greenD-gradient {
+    position: absolute;
+    top: -650px;
+    right: -100px;
+    z-index: -5 !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .btCards div {
+        min-width: 456px;
+        height: 256px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .btCards div {
+        min-width: 396px;
+        height: 225px;
+    }
+    .battle-tested h1 {
+        font-size: 2.75rem;
+    }
+    .btCards h3 {
+        font-size: 2rem;
+    }
+
+    .btCards h2 {
+        font-size: 2.1rem;
+    }
+
+    .btCards p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .btCards {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .battle-tested h1 {
+        font-size: 2.4rem;
+    }
+    .btCards h3 {
+        font-size: 1.6rem;
+    }
+
+    .btCards h2 {
+        font-size: 2rem;
+    }
+
+    .btCards p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .btCards div {
+        min-width: 296px;
+        height: 168px;
+    }
+    .battle-tested h1 {
+        font-size: 2.2rem;
+    }
+    .btCards h3 {
+        font-size: 1.3rem;
+    }
+
+    .btCards h2 {
+        font-size: 1.6rem;
+    }
+
+    .btCards p {
+        font-size: 0.9rem;
+    }
+}

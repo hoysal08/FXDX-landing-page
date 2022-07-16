@@ -1,0 +1,106 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mob-nav-items {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding-top: 7px;
+    margin: 0 auto;
+    height: 12vh;
+    z-index: 5 !important;
+    position: relative;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    font-family: "Monument";
+    font-size: 0.7rem;
+}
+
+.navbar .logo h1 {
+    margin-left: 12px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    padding: 15px 20px;
+    margin: 0 20px;
+    font-size: 1.1rem;
+    font-family: "SF";
+    letter-spacing: 0.85px;
+}
+
+.nav-btn {
+    background-color: rgba(255, 255, 255, 0.05);
+    /* color: white; */
+    padding: 20px 42px;
+    font-family: "SF";
+    border-radius: 10px;
+    font-size: 1.1rem;
+    letter-spacing: 0.7px;
+    transition: all 0.25s ease-in-out;
+}
+
+.nav-btn:hover {
+    cursor: pointer;
+    /* opacity: 0.9; */
+    box-shadow: 2.5px 2.5px 0px rgba(0, 128, 0, 0.75);
+}
+.mob-nav-items {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .mob-nav-items {
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+    }
+    .nav-items {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav a {
+        margin: 0;
+    }
+    .navbar .logo h1 {
+        font-size: 0.9rem;
+    }
+    .nav-btn {
+        padding: 20px;
+        text-align: center;
+        font-size: 0.7rem;
+        margin: 15px 0;
+    }
+    .navbar {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .mob-nav-items {
+        margin-top: 40px;
+    }
+    ul {
+        padding: 0 !important;
+    }
+}

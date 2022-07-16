@@ -1,0 +1,11 @@
+.features {
+    margin: 280px auto;
+    width: 80%;
+    /* background-color: rgb(184, 219, 250); */
+}
+
+@media screen and (max-width: 768px) {
+    .features {
+        margin: 150px auto;
+    }
+}

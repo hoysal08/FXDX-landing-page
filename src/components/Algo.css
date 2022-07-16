@@ -1,0 +1,101 @@
+.algo {
+    /* background: url("../../public/algo-img.png") no-repeat center center/cover; */
+    background: linear-gradient(99.31deg, #3e3e3e 0%, #202020 68.09%);
+    backdrop-filter: blur(148px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 20px;
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 100px;
+    padding: 130px;
+    border-radius: 30px;
+}
+
+.algo .left,
+.algo .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 350px;
+}
+
+.algo .left p {
+    font-size: 1.2rem;
+    line-height: 37px;
+}
+
+.algo-data {
+    display: flex;
+}
+
+.algo-data .chg {
+    margin-right: 50px;
+}
+
+.algo-data h4 {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    font-family: "SF";
+    letter-spacing: 1.4px;
+}
+
+.algo-data p {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 1.2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Monument";
+    letter-spacing: 1.8px;
+}
+
+.purple-gradient-text {
+    background: linear-gradient(89.93deg, #ce6af1 1.23%, #4500b5 75.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.algo-img {
+    position: absolute;
+    bottom: -90px;
+    right: 50px;
+    z-index: -1;
+    /* max-width: 100%; */
+}
+
+@media screen and (max-width: 1300px) {
+    .algo {
+        flex-direction: column;
+    }
+    .algo .left,
+    .algo .right {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .algo-img {
+        position: absolute;
+        bottom: -90px;
+        right: 50px;
+        z-index: -1;
+        width: 200px;
+    }
+    .algo .left,
+    .algo .right {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .algo {
+        margin: 0 5%;
+        padding: 40px;
+    }
+    .algo-img {
+        width: 130px;
+        right: 0px;
+    }
+}
