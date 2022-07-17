@@ -25,7 +25,7 @@
 
 .hero p {
     font-family: "SF";
-    font-size: 0.85rem;
+    /* font-size: 0.85rem; */
     color: rgba(255, 255, 255, 0.6);
     width: 70%;
     letter-spacing: 1.6px;

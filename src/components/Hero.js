@@ -11,7 +11,7 @@ const Hero = () => {
                     <br></br> with
                     <span className="green-gradient"> Limitless Liquidity</span>
                 </h2>
-                <p>
+                <p className="section-paragraph">
                     FXDX aims to build derivatives products by bringing together
                     all the liquidity sources across multiple blockchains into a
                     single platform, enabling unlimited liquidity and providing
