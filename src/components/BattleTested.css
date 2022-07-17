@@ -19,8 +19,8 @@
 }
 .btCards div {
     /* border: 1px solid gray; */
-    min-width: 406px;
-    height: 231px;
+    min-width: 363px;
+    height: 206px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,14 +40,14 @@
 .btCards h3 {
     color: rgba(255, 255, 255, 0.4);
     font-family: "SF";
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     letter-spacing: 1.7px;
     margin: 0;
 }
 
 .btCards h2 {
     font-family: "SF";
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     letter-spacing: 1.8px;
     margin: 22px 0;
 }

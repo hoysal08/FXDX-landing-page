@@ -21,7 +21,7 @@ const BattleTested = () => {
                     </div>
                     <div className="right">
                         <h3>Trades</h3>
-                        <h2>$110,893</h2>
+                        <h2>110,893</h2>
                         <p>Last 24 H</p>
                     </div>
                 </div>
