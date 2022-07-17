@@ -11,7 +11,7 @@
 
 .dgreen-gradient {
     position: absolute;
-    bottom: 0px;
+    bottom: -90px;
     right: 0px;
     z-index: 0 !important;
 }
