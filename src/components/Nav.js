@@ -11,16 +11,23 @@ const Nav = () => {
                 </div>
                 <ul className="nav-items">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="https://fxdx.exchange">Home</a>
                     </li>
                     <li>
-                        <a href="#">Traders</a>
+                        <a href="https://algo.fxdx.exchange/dashboard">
+                            Traders
+                        </a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="https://algo.fxdx.exchange/earn">About</a>
                     </li>
                 </ul>
-                <div className="nav-btn">FXDX on Algorand</div>
+                <a
+                    className="btn"
+                    href="https://fxdx.gitbook.io/a/algorand/trading"
+                >
+                    <div className="nav-btn">FXDX on Algorand</div>
+                </a>
             </div>
             <ul className="mob-nav-items">
                 <li>

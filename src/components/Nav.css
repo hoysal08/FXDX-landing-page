@@ -41,7 +41,7 @@
     align-items: center;
 }
 
-.nav a {
+.nav ul a {
     padding: 15px 20px;
     margin: 0 20px;
     font-size: 0.9rem;
