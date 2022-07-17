@@ -7,7 +7,8 @@ const Hero = () => {
             <div className="hero">
                 <h3 className="section-header">ABOUT FXDX EXCHANGE</h3>
                 <h2>
-                    Decentralised Infrastructure for Perpetual Futures, with
+                    Decentralised Infrastructure<br></br> for Perpetual Futures,
+                    <br></br> with
                     <span className="green-gradient"> Limitless Liquidity</span>
                 </h2>
                 <p>

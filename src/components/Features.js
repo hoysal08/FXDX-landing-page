@@ -11,8 +11,8 @@ const Features = () => {
         },
         {
             img: "./gas-pink.png",
-            heading: "No gas fees",
-            para: "We are on L2 chain so you could transact without having to worry about gas fees.",
+            heading: "Low gas fees",
+            para: "We are building on L1 and L2 blockchains where fees will not an issue for our traders.",
         },
         {
             img: "./card-green.png",

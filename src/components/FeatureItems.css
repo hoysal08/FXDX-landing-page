@@ -20,7 +20,7 @@
     /* position: relative;   */
 }
 .features-item h3 {
-    font-size: 1.4rem !important;
+    font-size: 1.45rem !important;
     letter-spacing: 1.5px;
     font-family: "SF";
     margin-top: 0px;
@@ -31,7 +31,7 @@
 .features-item p {
     width: 80%;
     color: rgba(255, 255, 255, 0.4);
-    font-size: 0.85rem !important;
+    font-size: 0.98rem !important;
     line-height: 22px;
 }
 
