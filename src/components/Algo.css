@@ -7,8 +7,8 @@
     border-radius: 20px;
     display: flex;
     margin-left: 10%;
-    margin-bottom: 100px;
-    padding: 130px;
+    margin-bottom: 0px;
+    padding: 52px 65px;
     border-radius: 30px;
 }
 
@@ -18,7 +18,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-right: 300px;
+}
+
+.algo .left {
+    margin-right: 200px;
 }
 
 .algo .left p {
@@ -62,7 +65,8 @@
     bottom: -90px;
     right: 50px;
     z-index: -1;
-    /* max-width: 100%; */
+    max-width: 250px;
+    /* max-width: 50%; */
 }
 
 @media screen and (max-width: 1300px) {

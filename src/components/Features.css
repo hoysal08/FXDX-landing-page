@@ -20,7 +20,7 @@
 
 .dgreen-gradient {
     position: absolute;
-    bottom: 0px;
+    bottom: -250px !important;
     right: 0px;
     z-index: -1 !important;
 }
