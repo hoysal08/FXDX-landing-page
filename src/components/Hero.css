@@ -18,14 +18,14 @@
 }
 
 .hero h2 {
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     letter-spacing: 3.5px;
 }
 
 .hero p {
     font-family: "SF";
-    font-size: 1rem;
+    font-size: 0.85rem;
     color: rgba(255, 255, 255, 0.6);
     width: 70%;
     letter-spacing: 1.6px;
@@ -49,7 +49,7 @@
 
 .purple-gradient {
     position: absolute;
-    top: -120px;
+    top: -230px;
     left: -60px;
     z-index: -2 !important;
 }

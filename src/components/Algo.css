@@ -18,12 +18,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-right: 350px;
+    margin-right: 300px;
 }
 
 .algo .left p {
-    font-size: 1.2rem;
-    line-height: 37px;
+    font-size: 1rem;
+    line-height: 28px;
 }
 
 .algo-data {
@@ -36,7 +36,7 @@
 
 .algo-data h4 {
     color: rgba(255, 255, 255, 0.6);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-bottom: 10px;
     font-family: "SF";
     letter-spacing: 1.4px;
@@ -44,7 +44,7 @@
 
 .algo-data p {
     color: rgba(255, 255, 255, 0.2);
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: "Monument";

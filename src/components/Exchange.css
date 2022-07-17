@@ -6,8 +6,9 @@
 
 .exchange-img,
 .exchange-img-mob {
+    margin: 0 auto;
     margin-top: 100px;
-    max-width: 100%;
+    max-width: 80%;
     /* height: 400px; */
     /* padding: 0 50px; */
     user-drag: none;

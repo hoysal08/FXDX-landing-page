@@ -33,6 +33,7 @@
 
 .navbar .logo h1 {
     margin-left: 12px;
+    font-size: 0.9rem;
 }
 
 .nav-items {
@@ -43,7 +44,7 @@
 .nav a {
     padding: 15px 20px;
     margin: 0 20px;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-family: "SF";
     letter-spacing: 0.85px;
 }
@@ -54,7 +55,7 @@
     padding: 20px 42px;
     font-family: "SF";
     border-radius: 10px;
-    font-size: 1.1rem;
+    font-size: 0.85rem;
     letter-spacing: 0.7px;
     transition: all 0.25s ease-in-out;
 }
