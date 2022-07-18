@@ -9,8 +9,10 @@ const FeatureItems = (props) => {
                 return (
                     <div className="features-item">
                         <img src={item.img} alt="" />
+                        {/* <div className="item-info"> */}
                         <h3>{item.heading}</h3>
                         <p>{item.para}</p>
+                        {/* </div> */}
                     </div>
                 );
             })}
