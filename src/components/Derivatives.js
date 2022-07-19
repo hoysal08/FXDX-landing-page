@@ -5,7 +5,7 @@ const Derivatives = () => {
     return (
         <div className="derivative-container">
             <div className="derivative">
-                <h3 className="section-header">DERIVATIVES</h3>
+                <h3 className="section-header">FXDX IS</h3>
                 <h2 className="section-main-heading">
                     POWERING BLOCKCHAIN WITH DERIVATIVES
                 </h2>
