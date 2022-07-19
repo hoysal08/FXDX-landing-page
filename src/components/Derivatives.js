@@ -9,10 +9,7 @@ const Derivatives = () => {
                 <h2 className="section-main-heading">
                     POWERING BLOCKCHAIN WITH DERIVATIVES
                 </h2>
-                <p className="section-paragraph">
-                    We beleive everyone should have access to open &amp;
-                    powerful financial tools
-                </p>
+
                 <img className="derivate-img" src="./derivate.png" alt="" />
             </div>
             <img className="dpurple-gradient" src="./purple-full.png" alt="" />
