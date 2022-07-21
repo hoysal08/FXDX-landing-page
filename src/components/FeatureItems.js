@@ -5,9 +5,9 @@ const FeatureItems = (props) => {
     console.log(props.items);
     return (
         <div className="features-items">
-            {props.items.map((item) => {
+            {props.items.map((item, index) => {
                 return (
-                    <div className="features-item">
+                    <div className="features-item" key={index}>
                         <img src={item.img} alt="" />
                         {/* <div className="item-info"> */}
                         <h3>{item.heading}</h3>

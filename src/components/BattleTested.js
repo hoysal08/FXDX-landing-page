@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./BattleTested.css";
 
 const BattleTested = () => {
+    const [data, setData] = useState("");
+
+    let url =
+        "https://api.mainnet.fxdx.exchange/api/volumes/daily_and_total/?format=json";
+    useEffect(() => {
+        fetch(url)
+            .then((res) => {
+                return res.json();
+            })
+            .then((data) => {
+                setData(data);
+                console.log(data);
+            });
+    }, []);
+
     return (
         <div className="battle-tested-container">
             <div className="battle-tested">
