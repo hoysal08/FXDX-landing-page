@@ -1,22 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./BattleTested.css";
 
-const BattleTested = () => {
-    const [data, setData] = useState("");
-
-    let url =
-        "https://api.mainnet.fxdx.exchange/api/volumes/daily_and_total/?format=json";
-    useEffect(() => {
-        fetch(url)
-            .then((res) => {
-                return res.json();
-            })
-            .then((data) => {
-                setData(data);
-                console.log(data);
-            });
-    }, []);
-
+const BattleTested = ({ dailyCount, dailyVolume }) => {
     return (
         <div className="battle-tested-container">
             <div className="battle-tested">
@@ -31,12 +16,14 @@ const BattleTested = () => {
                 <div className="btCards">
                     <div className="left">
                         <h3>Trading Volume</h3>
-                        <h2>$465,567,718</h2>
+                        <h2>{`$${Math.floor(
+                            dailyVolume / 1000000
+                        ).toLocaleString("en-US")}`}</h2>
                         <p>Last 24 H</p>
                     </div>
                     <div className="right">
                         <h3>Trades</h3>
-                        <h2>110,893</h2>
+                        <h2>{dailyCount}</h2>
                         <p>Last 24 H</p>
                     </div>
                 </div>

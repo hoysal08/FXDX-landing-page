@@ -2,7 +2,6 @@ import React from "react";
 import "./FeatureItems.css";
 
 const FeatureItems = (props) => {
-    console.log(props.items);
     return (
         <div className="features-items">
             {props.items.map((item, index) => {

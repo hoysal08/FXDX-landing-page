@@ -1,7 +1,7 @@
 import React from "react";
 import "./Algo.css";
 
-const Algo = () => {
+const Algo = ({ algoPrice, percentChange, dailyVolume }) => {
     return (
         <div className="algo">
             <img className="algo-img" src="./algo-deco.png" alt="" />
@@ -19,16 +19,21 @@ const Algo = () => {
                 <p className="section-header">ALGO</p>
                 <h2 className="section-main-heading">
                     <span className="purple-gradient-text">ALGORAND</span>
-                    <br />
-                    $1,058.13
+                    <br />${algoPrice.toFixed(6)}
                 </h2>
                 <div className="algo-data">
                     <div className="chg">
-                        <h4>1.05%</h4>
+                        <h4>{percentChange.toFixed(2)}%</h4>
                         <p>CHG</p>
                     </div>
                     <div className="vol">
-                        <h4>$167.5M</h4>
+                        <h4>
+                            {`
+                           $${Math.floor(dailyVolume / 1000000).toLocaleString(
+                               "en-US"
+                           )}
+                            `}
+                        </h4>
                         <p>VOLUME</p>
                     </div>
                 </div>

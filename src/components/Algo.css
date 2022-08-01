@@ -55,9 +55,11 @@
 }
 
 .purple-gradient-text {
+    display: inline-block;
     background: linear-gradient(89.93deg, #ce6af1 1.23%, #4500b5 75.63%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 0.15rem;
 }
 
 .algo-img {
