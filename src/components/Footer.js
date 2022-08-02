@@ -12,62 +12,40 @@ const Footer = () => {
                     <h3>Menu</h3>
                     <ul>
                         <li>
-                            <a href="#">Blog</a>
+                            <a href="https://fxdxdex.zendesk.com/">
+                                Help Center
+                            </a>
                         </li>
                         <li>
-                            <a href="#">FAQs</a>
-                        </li>
-                        <li>
-                            <a href="#">Tutorials</a>
-                        </li>
-                        <li>
-                            <a href="#">Help Center</a>
-                        </li>
-                        <li>
-                            <a href="#">Promotional Terms</a>
-                        </li>
-                        <li>
-                            <a href="#">Gasless Deposits</a>
-                        </li>
-                        <li>
-                            <a href="#">Competition Terms</a>
-                        </li>
-                        <li>
-                            <a href="#">Hedgies License</a>
+                            <a href="https://fxdxdex.medium.com/">Blog</a>
                         </li>
                     </ul>
                 </div>
                 <div className="footer-nav">
-                    <h3>Company</h3>
+                    <h3>Docs</h3>
                     <ul>
                         <li>
-                            <a href="#">Mission</a>
+                            <a href="https://fxdx.gitbook.io/a/legal/terms-of-use">
+                                Terms of Use
+                            </a>
                         </li>
                         <li>
-                            <a href="#">Careers</a>
-                        </li>
-                        <li>
-                            <a href="#">Brand</a>
+                            <a href="https://fxdx.gitbook.io/a/legal/privacy-policy">
+                                Privacy Policy
+                            </a>
                         </li>
                     </ul>
                 </div>
                 <div className="footer-nav">
-                    <h3>Brand</h3>
+                    <h3>Products</h3>
                     <ul>
                         <li>
-                            <a href="#">Web</a>
+                            <a href="https://algo.fxdx.exchange">Testnet</a>
                         </li>
                         <li>
-                            <a href="#">Mobile</a>
-                        </li>
-                        <li>
-                            <a href="#">Testnet</a>
-                        </li>
-                        <li>
-                            <a href="#">Hedgies</a>
-                        </li>
-                        <li>
-                            <a href="#">Margin</a>
+                            <a href="https://mainnet.fxdx.exchange/buy_flp">
+                                Liquidity
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -75,28 +53,22 @@ const Footer = () => {
                     <h3>Resources</h3>
                     <ul>
                         <li>
-                            <a href="#">Dashboard</a>
+                            <a href="https://mainnet.fxdx.exchange/earn">
+                                Earn
+                            </a>
                         </li>
                         <li>
-                            <a href="#">Forums</a>
+                            <a href="https://fxdx.gitbook.io/a/algorand/intro">
+                                Whitepaper
+                            </a>
                         </li>
                         <li>
-                            <a href="#">Documentation</a>
-                        </li>
-                        <li>
-                            <a href="#">Github</a>
-                        </li>
-                        <li>
-                            <a href="#">Status</a>
+                            <a href="https://github.com/fxdxdex">Github</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div className="footer-info">
-                <div>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Use</a>
-                </div>
                 <p>All rights reserved by FXDX Exchange</p>
             </div>
         </div>

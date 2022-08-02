@@ -14,19 +14,19 @@ const Nav = () => {
                         <a href="https://fxdx.exchange">Home</a>
                     </li>
                     <li>
-                        <a href="https://algo.fxdx.exchange/dashboard">Stats</a>
+                        <a href="https://mainnet.fxdx.exchange/stats">Stats</a>
                     </li>
                     <li>
-                        <a href="https://algo.fxdx.exchange/earn">Earn</a>
-                    </li>
-                    <li>
-                        <a href="https://fxdx.gitbook.io/a/algorand/trading">
-                            Guide
+                        <a href="https://mainnet.fxdx.exchange/buy_flp">
+                            Add Liquidity
                         </a>
                     </li>
+                    <li>
+                        <a href="https://fxdxdex.github.io/howto/">Guide</a>
+                    </li>
                 </ul>
-                <a className="btn" href="#">
-                    <div className="nav-btn">FXDX on Algorand</div>
+                <a className="btn" href="https://mainnet.fxdx.exchange/trade">
+                    <div className="nav-btn">Trade Now</div>
                 </a>
             </div>
             <ul className="mob-nav-items">
