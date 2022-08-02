@@ -13,6 +13,7 @@ import axios from "axios";
 
 function App() {
     const [dailyVolume, setDailyVolume] = useState(0);
+    const [totalVolume, setTotalVolume] = useState(0);
     const [dailyCount, setDailyCount] = useState(0);
     const [algoPrice, setAlgoPrice] = useState(0);
     const [percentChange, setPercentChange] = useState(0);
@@ -48,6 +49,9 @@ function App() {
                         setDailyVolume(
                             responseOne.data && responseOne.data.dailyVolume
                         );
+                        setTotalVolume(
+                            responseOne.data && responseOne.data.totalVolume
+                        );
                         setDailyCount(
                             responseTwo.data && responseTwo.data.count
                         );
@@ -73,7 +77,7 @@ function App() {
             <Hero></Hero>
             <BattleTested
                 dailyCount={dailyCount}
-                dailyVolume={dailyVolume}
+                totalVolume={totalVolume}
             ></BattleTested>
             <Derivatives></Derivatives>
             <Algo

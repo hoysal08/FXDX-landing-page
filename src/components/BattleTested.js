@@ -1,7 +1,7 @@
 import React from "react";
 import "./BattleTested.css";
 
-const BattleTested = ({ dailyCount, dailyVolume }) => {
+const BattleTested = ({ dailyCount, totalVolume }) => {
     return (
         <div className="battle-tested-container">
             <div className="battle-tested">
@@ -15,9 +15,9 @@ const BattleTested = ({ dailyCount, dailyVolume }) => {
                 </p>
                 <div className="btCards">
                     <div className="left">
-                        <h3>Trading Volume</h3>
+                        <h3>Total Volume</h3>
                         <h2>{`$${Math.floor(
-                            dailyVolume / 1000000
+                            totalVolume / 1000000
                         ).toLocaleString("en-US")}`}</h2>
                         <p>Last 24 H</p>
                         <a href="https://mainnet.fxdx.exchange/trade">Trade &rarr;</a>
