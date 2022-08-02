@@ -20,7 +20,7 @@ const BattleTested = ({ dailyCount, dailyVolume }) => {
                             dailyVolume / 1000000
                         ).toLocaleString("en-US")}`}</h2>
                         <p>Last 24 H</p>
-                        <a>Trade &rarr;</a>
+                        <a href="https://mainnet.fxdx.exchange/trade">Trade &rarr;</a>
                     </div>
                     <div className="right">
                         <h3>Trades</h3>
