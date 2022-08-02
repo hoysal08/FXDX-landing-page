@@ -59,10 +59,6 @@ function App() {
                             responseThree.data &&
                                 responseThree.data.percentage_change
                         );
-                        console.log(
-                            responseThree.data &&
-                                responseThree.data.current_price
-                        );
                     })
                 )
                 .catch((errors) => {
