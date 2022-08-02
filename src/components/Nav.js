@@ -6,7 +6,7 @@ const Nav = () => {
         <div className="nav">
             <div className="navbar">
                 <div className="logo">
-                    <img src="./logodark.jpg"></img>
+                    <img src="./logo.png"></img>
                     <h1>FXDX</h1>
                 </div>
                 <ul className="nav-items">
