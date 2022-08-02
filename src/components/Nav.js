@@ -26,7 +26,7 @@ const Nav = () => {
                     </li>
                 </ul>
                 <a className="btn" href="https://mainnet.fxdx.exchange/trade">
-                    <div className="nav-btn">Trade Now</div>
+                    <div className="nav-btn">FXDX on Algorand</div>
                 </a>
             </div>
             <ul className="mob-nav-items">
