@@ -12,7 +12,7 @@ const Footer = () => {
                     <h3>Menu</h3>
                     <ul>
                         <li>
-                            <a href="https://fxdxdex.zendesk.com/">
+                            <a href="https://fxdxdex.zendesk.com/hc/en-in/">
                                 Help Center
                             </a>
                         </li>
@@ -40,11 +40,14 @@ const Footer = () => {
                     <h3>Products</h3>
                     <ul>
                         <li>
+                            <a href="https://mainnet.fxdx.exchange">Mainnet</a>
+                        </li>
+                          <li>
                             <a href="https://algo.fxdx.exchange">Testnet</a>
                         </li>
                         <li>
                             <a href="https://mainnet.fxdx.exchange/buy_flp">
-                                Liquidity
+                                Add Liquidity
                             </a>
                         </li>
                     </ul>
@@ -54,7 +57,7 @@ const Footer = () => {
                     <ul>
                         <li>
                             <a href="https://mainnet.fxdx.exchange/earn">
-                                Earn
+                                Earn Dashboard
                             </a>
                         </li>
                         <li>
@@ -64,6 +67,9 @@ const Footer = () => {
                         </li>
                         <li>
                             <a href="https://github.com/fxdxdex">Github</a>
+                        </li>
+        <li>
+                            <a href="https://fxdx.gitbook.io/a/algorand/fees">Fees</a>
                         </li>
                     </ul>
                 </div>
