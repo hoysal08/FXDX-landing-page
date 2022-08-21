@@ -12,85 +12,77 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 function App() {
-    const [dailyVolume, setDailyVolume] = useState(0);
-    const [totalVolume, setTotalVolume] = useState(0);
-    const [dailyCount, setDailyCount] = useState(0);
-    const [algoPrice, setAlgoPrice] = useState(0);
-    const [percentChange, setPercentChange] = useState(0);
+  const [dailyVolume, setDailyVolume] = useState(0);
+  const [totalVolume, setTotalVolume] = useState(0);
+  const [dailyCount, setDailyCount] = useState(0);
+  const [algoPrice, setAlgoPrice] = useState(0);
+  const [percentChange, setPercentChange] = useState(0);
 
-    let dailyVolumeAPI =
-        "https://api.mainnet.fxdx.exchange/api/volumes/daily_and_total/";
+  let dailyVolumeAPI =
+    "https://api.mainnet.fxdx.exchange/api/volumes/daily_and_total/";
 
-    let dailyCountAPI =
-        "https://api.mainnet.fxdx.exchange/api/actions/daily_trades_count/";
+  let dailyCountAPI =
+    "https://api.mainnet.fxdx.exchange/api/actions/trade_stats/?format=json";
 
-    let algoPriceAPI = "https://api.mainnet.fxdx.exchange/api/prices/algo";
+  let algoPriceAPI = "https://api.mainnet.fxdx.exchange/api/prices/algo";
 
-    const getData = () => {};
+  const getData = () => {};
 
-    useEffect(() => {
-        setInterval(() => {
-            const requestOne = axios.get(dailyVolumeAPI);
-            const requestTwo = axios.get(dailyCountAPI);
-            const requestThree = axios.get(algoPriceAPI);
-            axios
-                .all([requestOne, requestTwo, requestThree], {
-                    headers: {
-                        "Cache-Control": "no-cache",
-                    },
-                })
-                .then(
-                    axios.spread((...responses) => {
-                        const responseOne = responses[0];
-                        const responseTwo = responses[1];
-                        const responseThree = responses[2];
-                        // use/access the results
+  useEffect(() => {
+    setInterval(() => {
+      const requestOne = axios.get(dailyVolumeAPI);
+      const requestTwo = axios.get(dailyCountAPI);
+      const requestThree = axios.get(algoPriceAPI);
+      axios
+        .all([requestOne, requestTwo, requestThree], {
+          headers: {
+            "Cache-Control": "no-cache",
+          },
+        })
+        .then(
+          axios.spread((...responses) => {
+            const responseOne = responses[0];
+            const responseTwo = responses[1];
+            const responseThree = responses[2];
+            // use/access the results
 
-                        setDailyVolume(
-                            responseOne.data && responseOne.data.dailyVolume
-                        );
-                        setTotalVolume(
-                            responseOne.data && responseOne.data.totalVolume
-                        );
-                        setDailyCount(
-                            responseTwo.data && responseTwo.data.count
-                        );
-                        setAlgoPrice(
-                            responseThree.data &&
-                                responseThree.data.current_price
-                        );
-                        setPercentChange(
-                            responseThree.data &&
-                                responseThree.data.percentage_change
-                        );
-                    })
-                )
-                .catch((errors) => {
-                    // react on errors.
-                });
-        }, 15 * 1000);
-    }, []);
+            setDailyVolume(responseOne.data && responseOne.data.dailyVolume);
+            setTotalVolume(responseOne.data && responseOne.data.totalVolume);
+            setDailyCount(responseTwo.data && responseTwo.data.total_trades);
+            setAlgoPrice(
+              responseThree.data && responseThree.data.current_price
+            );
+            setPercentChange(
+              responseThree.data && responseThree.data.percentage_change
+            );
+          })
+        )
+        .catch((errors) => {
+          // react on errors.
+        });
+    }, 15 * 1000);
+  }, []);
 
-    return (
-        <div className="App">
-            <Nav></Nav>
-            <Hero></Hero>
-            <BattleTested
-                dailyCount={dailyCount}
-                totalVolume={totalVolume}
-            ></BattleTested>
-            <Derivatives></Derivatives>
-            <Algo
-                algoPrice={algoPrice}
-                percentChange={percentChange}
-                dailyVolume={dailyVolume}
-            ></Algo>
-            <Features></Features>
-            <Exchange></Exchange>
-            <Investors></Investors>
-            <Footer></Footer>
-        </div>
-    );
+  return (
+    <div className="App">
+      <Nav></Nav>
+      <Hero></Hero>
+      <BattleTested
+        dailyCount={dailyCount}
+        totalVolume={totalVolume}
+      ></BattleTested>
+      <Derivatives></Derivatives>
+      <Algo
+        algoPrice={algoPrice}
+        percentChange={percentChange}
+        dailyVolume={dailyVolume}
+      ></Algo>
+      <Features></Features>
+      <Exchange></Exchange>
+      <Investors></Investors>
+      <Footer></Footer>
+    </div>
+  );
 }
 
 export default App;
