@@ -24,7 +24,6 @@ const Investors = () => {
     { img: "./shima.png" },
     { img: "./kretos.png" },
     { img: "./x.png" },
-    { img: "./zipmex.png" },
   ];
 
   return (
