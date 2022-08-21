@@ -78,7 +78,7 @@ function App() {
         dailyVolume={dailyVolume}
       ></Algo>
       <Features></Features>
-      <Exchange></Exchange>
+      {/* <Exchange></Exchange> */}
       <Investors></Investors>
       <Footer></Footer>
     </div>
