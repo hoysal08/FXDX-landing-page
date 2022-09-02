@@ -1,0 +1,161 @@
+.trading_container {
+  position: relative;
+  margin: 0 auto;
+}
+.bg_gradient {
+  content: "";
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  left: -400px;
+  top: 50px;
+  z-index: -1 !important;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #340c4d 0%,
+    #1f1431 53.44%,
+    #1a1a1a 100%
+  );
+  opacity: 0.8;
+  border-radius: 50%;
+}
+.trading {
+  background: linear-gradient(99.31deg, #3e3e3e 0%, #202020 68.09%);
+  backdrop-filter: blur(148px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -6.5%;
+  margin-bottom: 0px;
+  padding: 52px 65px;
+  border-radius: 30px;
+  width: 100%;
+  z-index: 10;
+}
+.table_title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.table_title .title {
+  width: 100%;
+  font-family: "SF";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  opacity: 0.6;
+  text-align: left;
+}
+
+.title:nth-child(2),
+.title:nth-child(3) {
+  text-align: center;
+}
+.title:nth-child(4) {
+  text-align: right;
+}
+
+.table_title2 {
+  border-bottom: 1px solid rgba(152, 152, 152, 0.29);
+}
+.table_title2:last-child {
+  border: none;
+}
+.table_title2 .data {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.table_title2 .name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  font-family: "Monument";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.name .coin_code {
+  font-family: "SF";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+}
+.name .coin_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.trading_button {
+  width: 184px;
+  height: 72px;
+  background: #252525;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  margin-top: 50px;
+}
+@media screen and (max-width: 1300px) {
+  .trading {
+    margin-left: -8%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .trading {
+    padding: 35px 5%;
+    margin-left: -5%;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .bg_gradient {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: -150px;
+    top: 150px;
+  }
+  .table_title .title {
+    font-size: 12px;
+  }
+  .title:nth-child(2),
+  .title:nth-child(3),
+  .title:nth-child(4) {
+    width: 60%;
+  }
+  .table_title2 .name {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .name .coin_img {
+    width: 20px;
+    height: 20px;
+  }
+  .name .coin_code {
+    display: none;
+  }
+  .trading_button {
+    width: 130px;
+    height: 45px;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  .button_img {
+    display: none;
+  }
+}

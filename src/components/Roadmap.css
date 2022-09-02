@@ -1,0 +1,166 @@
+.roadmap {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 25px;
+  z-index: 1;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-family: "Monument";
+}
+.roadmap_bg {
+  position: absolute;
+  width: 115%;
+  height: 115%;
+  z-index: 0;
+}
+.roadmap_title {
+  margin-top: -50px;
+}
+.roadmap_title1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  opacity: 0.2;
+}
+.roadmap_title2 {
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 100%;
+}
+.roadmap_quarter {
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 100%;
+  margin: 0;
+  text-align: center;
+  /* text-shadow: -1px 9px 43px rgba(0, 0, 0, 0.9); */
+  position: relative;
+  z-index: 2;
+  margin-bottom: -35px;
+}
+.q3 {
+  background: linear-gradient(0deg, #a93aff 0%, #ff81ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.q4 {
+  background: linear-gradient(0deg, #fd3a84 0%, #ffa68d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.q1 {
+  background: linear-gradient(0deg, #ffe59a 0%, #ffffd5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.roadmap_year {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  margin-left: 100px;
+  margin-bottom: 0px;
+}
+.roadmap_points {
+  margin-bottom: -10px;
+}
+
+.roadmap_points li {
+  list-style: disc;
+  line-height: 180%;
+  max-width: 270px;
+}
+.roadmap_center .roadmap_points li {
+  max-width: 280px;
+}
+
+.roadmap_months {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 280px;
+  gap: 35px;
+  padding-top: 10px;
+  border-top: 1px dashed #fff;
+  font-family: "SF";
+}
+.roadmap_img {
+  height: 180px;
+  margin-bottom: 25px;
+}
+
+.roadmap_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roadmap_left,
+.roadmap_center,
+.roadmap_right {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.roadmap_left {
+  padding-top: 8%;
+}
+.roadmap_center {
+  padding-top: 25%;
+}
+
+@media screen and (max-width: 1300px) {
+  .roadmap_left {
+    padding-top: 5%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .roadmap {
+    flex-direction: column;
+    padding: 200px 5%;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .roadmap_title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .roadmap_left,
+  .roadmap_center,
+  .roadmap_right {
+    padding-top: 30px;
+  }
+  .roadmap_bg,
+  .roadmap_img {
+    display: none;
+  }
+  .roadmap_center .roadmap_points li,
+  .roadmap_points li {
+    max-width: 320px;
+  }
+  .roadmap_months {
+    min-width: 320px;
+  }
+}
+@media screen and (max-width: 648px) {
+  .roadmap {
+    margin-left: -20px;
+  }
+}

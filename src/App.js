@@ -3,13 +3,16 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import BattleTested from "./components/BattleTested";
 import Derivatives from "./components/Derivatives";
-import Algo from "./components/Algo";
+import Algo from "./components/Trading";
 import Features from "./components/Features";
-import Exchange from "./components/Exchange";
+// import Exchange from "./components/Exchange";
 import Investors from "./components/Investors";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Trading from "./components/Trading";
+import BuyAlgo from "./components/BuyAlgo";
+import Roadmap from "./components/Roadmap";
 
 function App() {
   const [dailyVolume, setDailyVolume] = useState(0);
@@ -65,22 +68,16 @@ function App() {
 
   return (
     <div className="App">
-      <Nav></Nav>
-      <Hero></Hero>
-      <BattleTested
-        dailyCount={dailyCount}
-        totalVolume={totalVolume}
-      ></BattleTested>
-      <Derivatives></Derivatives>
-      <Algo
-        algoPrice={algoPrice}
-        percentChange={percentChange}
-        dailyVolume={dailyVolume}
-      ></Algo>
-      <Features></Features>
-      {/* <Exchange></Exchange> */}
-      <Investors></Investors>
-      <Footer></Footer>
+      <Nav />
+      <Hero />
+      <BattleTested dailyCount={dailyCount} totalVolume={totalVolume} />
+      <Derivatives />
+      <Trading />
+      <Features />
+      <BuyAlgo />
+      <Roadmap />
+      <Investors />
+      <Footer />
     </div>
   );
 }

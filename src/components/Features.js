@@ -49,7 +49,7 @@ const Features = () => {
                 <FeatureItems
                     className="fi"
                     items={featureItems}
-                ></FeatureItems>
+                />
             </div>
             <img className="dpurple-gradient" src="./purple-full.png" alt="" />
         </div>
