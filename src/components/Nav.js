@@ -12,7 +12,6 @@ const Nav = () => {
               height: 50,
             }}
           />
-          <h1>FXDX</h1>
         </div>
         <ul className="nav-items">
           <li>
