@@ -69,9 +69,9 @@ const Trading = () => {
           <p className="title data">$45.658M</p>
         </div>
       </div>
-      <button className="trading_button">
+      <a href="https://mainnet.fxdx.exchange/trade" className="trading_button">
         Get Started <img src="/arrowRight.svg" className="button_img" />
-      </button>
+      </a>
     </div>
   );
 };
