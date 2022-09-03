@@ -36,13 +36,13 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 .table_title .title {
   width: 100%;
   font-family: "SF";
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 36px;
   color: #ffffff;
   opacity: 0.6;
@@ -65,7 +65,7 @@
 }
 .table_title2 .data {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 36px;
   color: #ffffff;
   opacity: 0.6;
@@ -78,7 +78,7 @@
   font-family: "Monument";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #ffffff;
@@ -87,12 +87,12 @@
 .name .coin_code {
   font-family: "SF";
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 36px;
 }
 .name .coin_img {
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
 }
 
@@ -102,11 +102,18 @@
   background: #252525;
   border-radius: 10px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   color: #ffffff;
   border: none;
+  margin: 0 auto;
   margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button_img{
+  margin-left: 5px;
 }
 @media screen and (max-width: 1300px) {
   .trading {

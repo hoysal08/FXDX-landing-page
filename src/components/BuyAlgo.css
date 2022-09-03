@@ -14,17 +14,17 @@
 .algo_buy {
   font-family: "Monument";
   font-weight: 800;
-  font-size: 32px;
+  font-size: 20px;
   line-height: 100%;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: -25px;
+  margin-bottom: -15px;
 }
 .algo_title {
   font-family: "Monument";
   font-weight: 800;
-  font-size: 48px;
+  font-size: 32px;
   line-height: 100%;
   letter-spacing: 0.02em;
   text-transform: uppercase;
@@ -41,12 +41,13 @@
   gap: 10px;
 }
 .maxc_img {
-  width: 220px;
-  height: 25px;
+  width: 180px;
+  height: 20px;
   object-fit: contain;
 }
 .algo_left .trading_button {
   margin-top: 20px;
+  margin-left: 0;
 }
 
 .algo_right {
@@ -65,8 +66,8 @@
   border-radius: 80%;
 }
 .dollar_img {
-  height: 300px;
-  width: 300px;
+  height: 280px;
+  width: 280px;
   object-fit: contain;
   transform: rotate(-15.06deg);
 }
@@ -82,15 +83,18 @@
 
 @media screen and (max-width: 648px) {
   .algo_buy {
-    font-size: 26px;
-    margin-bottom: -15px;
+    font-size: 18px;
+    margin-bottom: -10px;
   }
   .algo_title {
-    font-size: 36px;
+    font-size: 28px;
     margin-bottom: 10px;
   }
   .algo_maxc {
     flex-direction: column;
     align-items: center;
   }
+  .algo_left .trading_button {
+    margin-left: auto;
+}
 }
