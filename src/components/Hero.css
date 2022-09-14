@@ -115,4 +115,12 @@
     font-size: 1.4rem;
     line-height: 32px;
   }
+  .zendesk{
+    display: none;
+  }
+  .hero-row{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
