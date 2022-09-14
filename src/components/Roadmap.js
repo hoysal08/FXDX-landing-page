@@ -15,9 +15,7 @@ const Roadmap = () => {
           <h3 className="roadmap_year">2022</h3>
           <ul className="roadmap_points">
             <li>
-              Mainnet
-              <br />
-              Launch
+              Mainnet Launch
             </li>
             <li>More Listings</li>
             <li>Oracle Improvement</li>
