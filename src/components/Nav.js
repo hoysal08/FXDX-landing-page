@@ -18,7 +18,7 @@ const Nav = () => {
             <a href="https://fxdx.exchange">Home</a>
           </li>
           <li>
-            <a href="https://mainnet.fxdx.exchange/stats">Stats</a>
+            <a href="https://stats.fxdx.exchange/">Stats</a>
           </li>
           <li>
             <a href="https://mainnet.fxdx.exchange/buy_flp">Add Liquidity</a>
