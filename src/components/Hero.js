@@ -25,6 +25,9 @@ const Hero = () => {
             <img src="/telegram.svg" height={55} width={55} />
           </a>
           <a href="https://t.me/fxdxannouncement" target="_blank">
+            <img src="/telegram.svg" height={55} width={55} />
+          </a>
+          <a href="https://discord.gg/pp8xW24pxb" target="_blank">
             <img src="/discord.svg" height={55} width={55} />
           </a>
           <a href="https://github.com/fxdxdex" target="_blank">
