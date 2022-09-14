@@ -17,7 +17,7 @@ const BattleTested = ({ dailyCount, totalVolume }) => {
                     <div className="left">
                         <h3>Total Volume</h3>
                         <h2>$150,746,500</h2>
-                        /*<h2>{`$${Math.floor(
+                        /* <h2>{`$${Math.floor(
                             totalVolume / 1000000
                         ).toLocaleString("en-US")}`}</h2>
                         */
