@@ -93,7 +93,7 @@
   align-items: center;
   justify-content: flex-start;
   min-width: 280px;
-  gap: 35px;
+  gap: 33%;
   padding-top: 10px;
   border-top: 1px dashed #fff;
   font-family: "SF";
