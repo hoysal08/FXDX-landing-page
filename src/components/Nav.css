@@ -3,10 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .mob-nav-items {
     display: flex;
+    flex-direction: column;
+    gap: 20px;
     align-items: center;
     position: relative;
     z-index: 2;
