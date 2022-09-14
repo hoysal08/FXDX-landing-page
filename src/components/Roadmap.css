@@ -170,4 +170,7 @@
   .roadmap {
     margin-left: -20px;
   }
+  .roadmap_points>li{
+    font-size: smaller;
+  }
 }
