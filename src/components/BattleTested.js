@@ -16,11 +16,7 @@ const BattleTested = ({ dailyCount, totalVolume }) => {
                 <div className="btCards">
                     <div className="left">
                         <h3>Total Volume</h3>
-                        <h2>$150,746,500</h2>
-                        /* <h2>{`$${Math.floor(
-                            totalVolume / 1000000
-                        ).toLocaleString("en-US")}`}</h2>
-                        */
+                        <h2>$150,000,000+</h2>
                         <a href="https://mainnet.fxdx.exchange/buy_flp">Add Liquidity &rarr;</a>
                     </div>
                     <div className="right">
