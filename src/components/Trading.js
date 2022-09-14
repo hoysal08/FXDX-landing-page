@@ -8,7 +8,7 @@ const Trading = () => {
       style={{
         marginTop: 0,
         marginBottom: 0,
-        display: none,
+        display: 'none',
       }}
     >
       <h3 className="section-header">NOW LIVE</h3>
