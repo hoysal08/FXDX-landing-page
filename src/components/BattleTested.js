@@ -21,7 +21,7 @@ const BattleTested = ({ dailyCount, totalVolume }) => {
                     </div>
                     <div className="right">
                         <h3>Total Trades</h3>
-                        <h2>20000+</h2>
+                        <h2>20,000+</h2>
                         <a href="https://mainnet.fxdx.exchange/trade">Trade &rarr;</a>
                     </div>
                 </div>
