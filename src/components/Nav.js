@@ -1,7 +1,31 @@
 import React from "react";
 import "./Nav.css";
-
+import { useState } from "react";
+import { useEffect } from "react";
 const Nav = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [width, setWidth] = useState(window.innerWidth);
+
+  function handleClick(event){
+      if(isOpen){
+        width = 1001
+      }
+      else if(width < 1000)
+      {event.preventDefault()}
+    setIsOpen(!isOpen);
+  }
+
+function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+}
+useEffect(() => {
+    window.addEventListener('resize', handleWindowSizeChange);
+    return () => {
+        window.removeEventListener('resize', handleWindowSizeChange);
+    }
+}, []);
+
+const isMobile = width <= 768;
   return (
     <div className="nav">
       <div className="navbar">
@@ -13,6 +37,7 @@ const Nav = () => {
             }}
           />
         </div>
+        
         <ul className="nav-items">
           <li>
             <a href="https://fxdx.exchange">Home</a>
@@ -27,10 +52,15 @@ const Nav = () => {
             <a href="https://fxdxdex.github.io/howto/">Guide</a>
           </li>
         </ul>
-        <a className="btn" href="https://mainnet.fxdx.exchange/trade">
+
+        <a className="btn" href="https://mainnet.fxdx.exchange/trade" onClick={handleClick}>
           <div className="nav-btn">FXDX on Algorand</div>
         </a>
+
       </div>
+    
+      {isOpen ? 
+      <div>
       <ul className="mob-nav-items">
         <li>
             <a href="https://fxdx.exchange">Home</a>
@@ -44,7 +74,8 @@ const Nav = () => {
           <li>
             <a href="https://fxdxdex.github.io/howto/">Guide</a>
           </li>
-      </ul>
+      </ul> </div>: <></> }
+      
     </div>
   );
 };
