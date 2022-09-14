@@ -33,14 +33,17 @@ const Nav = () => {
       </div>
       <ul className="mob-nav-items">
         <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">Traders</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
+            <a href="https://fxdx.exchange">Home</a>
+          </li>
+          <li>
+            <a href="https://stats.fxdx.exchange/">Stats</a>
+          </li>
+          <li>
+            <a href="https://mainnet.fxdx.exchange/buy_flp">Add Liquidity</a>
+          </li>
+          <li>
+            <a href="https://fxdxdex.github.io/howto/">Guide</a>
+          </li>
       </ul>
     </div>
   );
