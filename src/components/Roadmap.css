@@ -158,8 +158,7 @@
   .roadmap_img {
     display: none;
   }
-  .roadmap_center .roadmap_points li,
-  .roadmap_points li {
+  .roadmap_center {
     max-width: 320px;
   }
   .roadmap_months {
