@@ -56,6 +56,11 @@ const Footer = () => {
                     <h3>Resources</h3>
                     <ul>
                         <li>
+                            <a href="https://stats.fxdx.exchange/">
+                                Analytics
+                            </a>
+                        </li>
+                        <li>
                             <a href="https://mainnet.fxdx.exchange/earn">
                                 Earn Dashboard
                             </a>
