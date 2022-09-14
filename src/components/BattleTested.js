@@ -7,7 +7,7 @@ const BattleTested = ({ dailyCount, totalVolume }) => {
             <div className="battle-tested">
                 <h3 className="section-header">BATTLE TESTED</h3>
                 <h1 className="section-main-heading">
-                    Trusted by over 2500 traders
+                    Trusted by traders
                 </h1>
                 <p className="section-paragraph">
                     We believe everyone should have access to open & powerful
