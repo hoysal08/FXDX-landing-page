@@ -12,7 +12,7 @@ const BuyAlgo = () => {
             <p className="algo_maxc">
               Powered by <img src="/maxc.png" className="maxc_img" />
             </p>
-            <button className="trading_button"><a href="https://tinyurl.com/algousdc">Buy</a></button>
+            <button className="trading_button"><a href="https://tinyurl.com/algousdc" target="_blank">Buy</a></button>
           </div>
           <div className="algo_right">
             <span className="dollar_img_bg" />
