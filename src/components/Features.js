@@ -17,7 +17,7 @@ const Features = () => {
         {
             img: "./card-green.png",
             heading: "Low transaction fees",
-            para: "We have a tiered and incentivized fees, that is, higher the trade value lower is the fees.",
+            para: "We will have a tiered and incentivized fees, that is, higher the trade value lower is the fees.",
         },
         {
             img: "./lock-purple.png",
@@ -43,7 +43,7 @@ const Features = () => {
                 <h3 className="section-header">FEATURES</h3>
                 <h2 className="section-main-heading">FASTEST, MOST POWERFUL</h2>
                 <p className="section-paragraph">
-                    We built the fastest and most powerful decentralized
+                    We are building the fastest and most powerful decentralized
                     exchange ever
                 </p>
                 <FeatureItems
