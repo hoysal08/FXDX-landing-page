@@ -7,7 +7,6 @@ const Investors = () => {
     { img: "./draper.png" },
     { img: "./bc.png" },
     { img: "./algo.png" },
-    { img: "./borderless.png" },
     { img: "./ripple.png" },
     { img: "./ex.png" },
     { img: "./valhalla.png" },
