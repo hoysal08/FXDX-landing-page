@@ -12,7 +12,7 @@ const Features = () => {
         {
             img: "./gas-pink.png",
             heading: "Low gas fees",
-            para: "We are building on L1 and L2 blockchains where fees will not an issue for our traders.",
+            para: "We are building on L1 and L2 blockchains where fees will not be an issue for our traders.",
         },
         {
             img: "./card-green.png",
