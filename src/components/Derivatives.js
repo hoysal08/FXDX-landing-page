@@ -7,7 +7,7 @@ const Derivatives = () => {
             <div className="derivative">
                 <h3 className="section-header">FXDX IS</h3>
                 <h2 className="section-main-heading">
-                    POWERING BLOCKCHAIN WITH DERIVATIVES
+                    POWERING DERIVATIVES WITH BLOCKCHAIN
                 </h2>
 
                 <img className="derivate-img" src="./derivate.png" alt="" />
