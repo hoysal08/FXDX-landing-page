@@ -33,9 +33,6 @@ const Hero = () => {
           <a href="https://github.com/fxdxdex" target="_blank">
             <img src="/github.svg" height={55} width={55} />
           </a>
-          <a className='zendesk' href="https://fxdxdex.zendesk.com/hc/en-in" target="_blank">
-            <img src="/zendesk.svg" height={55} width={55} />
-          </a>
           <a href="https://fxdxdex.medium.com/" target="_blank">
             <img src="/medium.svg" height={55} width={55} />
           </a>
