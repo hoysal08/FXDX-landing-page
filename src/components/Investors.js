@@ -7,8 +7,8 @@ const Investors = () => {
     { img: "./draper.png" },
     { img: "./bc.png" },
     { img: "./algo.png" },
-    { img: "./ex.png" },
     { img: "./valhalla.png" },
+    { img: "./shima.png" },
     { img: "./crown.png" },
     { img: "./ventures.png" },
     { img: "./gsr.png" },
@@ -18,8 +18,8 @@ const Investors = () => {
     { img: "./meta.png" },
     { img: "./sheesha.png" },
     { img: "./hodl.png" },
-    { img: "./shima.png" },
-    { img: "./kretos.png" },
+    { img: "./kretos.png" },    
+    { img: "./ex.png" },
   ];
 
   return (
