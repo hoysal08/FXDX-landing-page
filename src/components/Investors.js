@@ -22,19 +22,7 @@ const Investors = () => {
     { img: "./ex.png" },
   ];
 
-  return (
-    <!--<div className="investor-container">
-      <div className="investor text-center">
-        <h3 className="section-header">OUR INVESTORS</h3>
-        <h2 className="section-main-heading">BACKED BY THE BEST</h2>
-        <p className="section-paragraph">
-          Our global investors include angel investors &amp; leading funds.
-        </p>
-        <InvestorsImg items={investorsImg}></InvestorsImg>
-      </div>
-      <img className="dgreen-gradient" src="./green.png" alt="" />
-    </div>-->
-  );
+  return ();
 };
 
 export default Investors;
