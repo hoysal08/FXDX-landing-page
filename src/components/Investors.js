@@ -23,7 +23,7 @@ const Investors = () => {
   ];
 
   return (
-    <div className="investor-container" style="display:none;">
+    <div className="investor-container">
       <div className="investor text-center">
         <h3 className="section-header">OUR INVESTORS</h3>
         <h2 className="section-main-heading">BACKED BY THE BEST</h2>
