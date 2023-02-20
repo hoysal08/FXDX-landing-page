@@ -23,7 +23,7 @@ const Investors = () => {
   ];
 
   return (
-    /*<div className="investor-container">
+    <div className="investor-container">
       <div className="investor text-center">
         <h3 className="section-header">OUR INVESTORS</h3>
         <h2 className="section-main-heading">BACKED BY THE BEST</h2>
@@ -33,7 +33,7 @@ const Investors = () => {
         <InvestorsImg items={investorsImg}></InvestorsImg>
       </div>
       <img className="dgreen-gradient" src="./green.png" alt="" />
-    </div>*/
+    </div>
   );
 };
 
