@@ -3,7 +3,7 @@ import "./BuyAlgo.css";
 
 const BuyAlgo = () => {
   return (
-    <div className="features">
+    <div className="features" style="display:none;">
       <div className="trading">
         <div className="algo">
           <div className="algo_left">
