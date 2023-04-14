@@ -42,19 +42,10 @@ const isMobile = width <= 768;
           <li>
             <a href="https://fxdx.exchange" >Home</a>
           </li>
-          <li>
-            <a href="https://stats.fxdx.exchange/" target="_blank">Stats</a>
-          </li>
-          <li>
-            <a href="https://mainnet.fxdx.exchange/buy_flp" target="_blank">Add Liquidity</a>
-          </li>
-          <li>
-            <a href="https://fxdxdex.github.io/howto/" target="_blank">Guide</a>
-          </li>
         </ul>
 
-        <a className="btn" target="_blank" href="https://mainnet.fxdx.exchange/trade" onClick={handleClick}>
-          <div className="nav-btn">FXDX on Algorand</div>
+        <a className="btn" target="_blank" href="https://test.fxdx.exchange/" onClick={handleClick}>
+          <div className="nav-btn">Launch Testnet</div>
         </a>
 
       </div>
@@ -64,15 +55,6 @@ const isMobile = width <= 768;
       <ul className="mob-nav-items">
         <li>
             <a href="https://fxdx.exchange">Home</a>
-          </li>
-          <li>
-            <a href="https://stats.fxdx.exchange/" target="_blank">Stats</a>
-          </li>
-          <li>
-            <a href="https://mainnet.fxdx.exchange/buy_flp" target="_blank">Add Liquidity</a>
-          </li>
-          <li>
-            <a href="https://fxdxdex.github.io/howto/" target="_blank">Guide</a>
           </li>
       </ul> </div>: <></> }
       
