@@ -17,12 +17,10 @@ const BattleTested = ({ dailyCount, totalVolume }) => {
                     <div className="left">
                         <h3>Total Volume</h3>
                         <h2>$400,000,000+</h2>
-                        <a href="https://mainnet.fxdx.exchange/buy_flp">Add Liquidity &rarr;</a>
                     </div>
                     <div className="right">
                         <h3>Total Trades</h3>
                         <h2>55,000+</h2>
-                        <a href="https://mainnet.fxdx.exchange/trade">Trade &rarr;</a>
                     </div>
                 </div>
             </div>
