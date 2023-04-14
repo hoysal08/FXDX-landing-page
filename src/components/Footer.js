@@ -12,11 +12,6 @@ const Footer = () => {
                     <h3>Menu</h3>
                     <ul>
                         <li>
-                            <a href="https://fxdxdex.zendesk.com/hc/en-in/" target="_blank">
-                                Help Center
-                            </a>
-                        </li>
-                        <li>
                             <a href="https://fxdxdex.medium.com/" target="_blank">Blog</a>
                         </li>
                     </ul>
@@ -39,16 +34,11 @@ const Footer = () => {
                 <div className="footer-nav">
                     <h3>Products</h3>
                     <ul>
-                        <li>
-                            <a href="https://mainnet.fxdx.exchange" target="_blank">Mainnet</a>
-                        </li>
-                          <li>
-                            <a href="https://algo.fxdx.exchange" target="_blank">Testnet</a>
+                         <li>
+                            <a href="https://test.fxdx.exchange" target="_blank">Testnet (Optimism Testnet)</a>
                         </li>
                         <li>
-                            <a href="https://mainnet.fxdx.exchange/buy_flp" target="_blank">
-                                Add Liquidity
-                            </a>
+                            <a href="https://mainnet.fxdx.exchange" target="_blank">Algorand</a>
                         </li>
                     </ul>
                 </div>
@@ -56,25 +46,7 @@ const Footer = () => {
                     <h3>Resources</h3>
                     <ul>
                         <li>
-                            <a href="https://stats.fxdx.exchange/" target="_blank">
-                                Analytics
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://mainnet.fxdx.exchange/earn" target="_blank">
-                                Earn Dashboard
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://fxdx.gitbook.io/a/algorand/intro" target="_blank">
-                                Whitepaper
-                            </a>
-                        </li>
-                        <li>
                             <a href="https://github.com/fxdxdex" target="_blank">Github</a>
-                        </li>
-        <li>
-                            <a href="https://fxdx.gitbook.io/a/algorand/fees" target="_blank">Fees</a>
                         </li>
                     </ul>
                 </div>
