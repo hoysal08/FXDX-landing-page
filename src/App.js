@@ -74,7 +74,6 @@ function App() {
       <Derivatives />
       <Trading />
       <Features />
-      <BuyAlgo />
       <Roadmap />
       <Investors />
       <Footer />
