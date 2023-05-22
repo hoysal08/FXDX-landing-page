@@ -42,6 +42,15 @@ const isMobile = width <= 768;
           <li>
             <a href="https://fxdx.exchange" >Home</a>
           </li>
+           <li>
+            <a href="https://app.fxdx.exchange/buy">Add Liquidity</a>
+          </li>
+        <li>
+            <a href="https://app.fxdx.exchange/trade">Trade</a>
+          </li>
+        <li>
+            <a href="https://app.fxdx.exchange/referrals">Referrals</a>
+          </li>
         </ul>
 
         <a className="btn" target="_blank" href="https://app.fxdx.exchange/" onClick={handleClick}>
