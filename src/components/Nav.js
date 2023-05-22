@@ -44,8 +44,8 @@ const isMobile = width <= 768;
           </li>
         </ul>
 
-        <a className="btn" target="_blank" href="https://test.fxdx.exchange/" onClick={handleClick}>
-          <div className="nav-btn">Launch Testnet</div>
+        <a className="btn" target="_blank" href="https://app.fxdx.exchange/" onClick={handleClick}>
+          <div className="nav-btn">Launch App (Now Live!)</div>
         </a>
 
       </div>
@@ -55,6 +55,15 @@ const isMobile = width <= 768;
       <ul className="mob-nav-items">
         <li>
             <a href="https://fxdx.exchange">Home</a>
+          </li>
+        <li>
+            <a href="https://app.fxdx.exchange/buy">Add Liquidity</a>
+          </li>
+        <li>
+            <a href="https://app.fxdx.exchange/trade">Trade</a>
+          </li>
+        <li>
+            <a href="https://app.fxdx.exchange/referrals">Referrals</a>
           </li>
       </ul> </div>: <></> }
       
