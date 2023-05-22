@@ -14,6 +14,9 @@ const Footer = () => {
                         <li>
                             <a href="https://fxdxdex.medium.com/" target="_blank">Blog</a>
                         </li>
+                        <li>
+                            <a href="https://fxdxdocs.gitbook.io/fxdx-knowledge-base/" target="_blank">Docs</a>
+                        </li>
                     </ul>
                 </div>
                 <div className="footer-nav">
@@ -33,12 +36,14 @@ const Footer = () => {
                 </div>
                 <div className="footer-nav">
                     <h3>Products</h3>
-                    <ul>
+                    <ul><li>
+                            <a href="https://app.fxdx.exchange" target="_blank">Mainnet (Optimism)</a>
+                        </li>
                          <li>
-                            <a href="https://test.fxdx.exchange" target="_blank">Testnet (Optimism Testnet)</a>
+                            <a href="https://test.fxdx.exchange" target="_blank">Testnet (Optimism)</a>
                         </li>
                         <li>
-                            <a href="https://mainnet.fxdx.exchange" target="_blank">Algorand</a>
+                            <a href="https://mainnet.fxdx.exchange" target="_blank">Algorand (Closed)</a>
                         </li>
                     </ul>
                 </div>
