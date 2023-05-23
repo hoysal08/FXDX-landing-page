@@ -47,7 +47,7 @@ const Email = () => {
       <input
         className="email-input"
         type="email"
-        placeholder="Enter Email"
+        placeholder="Join our Mailing list"
         onChange={(e) => {
           setemail(e.target.value);
         }}

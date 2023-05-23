@@ -7,6 +7,7 @@
   justify-content: space-between;
   position: relative;
     z-index:1;
+    padding-top: 3rem;
 }
 .email-input {
   /* background-color:transparent; */
@@ -70,7 +71,7 @@
   .App-submit-btn {
     margin: 2rem;
     width: 25%;
-    padding: .6rem .6rem;
+    padding: .6rem .2rem;
     line-height: 70%;
     font-size: .5rem;
   }
