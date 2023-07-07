@@ -7,7 +7,7 @@ const Redirect = () => {
     },[])
   return (
     <div className='redirect-wrapper'>
-      <p>Redirecting you to Mainmet App</p> 
+      <p>Redirecting you to Mainnet App</p> 
     </div>
   )
 }
