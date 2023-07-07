@@ -14,6 +14,7 @@ import Trading from "./components/Trading";
 import BuyAlgo from "./components/BuyAlgo";
 import Roadmap from "./components/Roadmap";
 import Email from "./components/Email";
+import { BrowserRouter as Router, Route, Switch, BrowserRouter, Routes, Navigate } from 'react-router-dom'; 
 
 function App() {
   const [dailyVolume, setDailyVolume] = useState(0);
@@ -68,6 +69,11 @@ function App() {
   }, []);
 
   return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/liquidity" Component={()=>{window.location.href = 'https://app.fxdx.exchange/buy/?ref=fxdx';
+    return null;}}/>
+      </Routes>
     <div className="App">
       <Nav />
       <Hero />
@@ -80,6 +86,7 @@ function App() {
       <Investors />
       <Footer />
     </div>
+    </BrowserRouter>
   );
 }
 
