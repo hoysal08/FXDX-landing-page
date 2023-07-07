@@ -1,20 +1,14 @@
-import "./App.css";
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
-import BattleTested from "./components/BattleTested";
-import Derivatives from "./components/Derivatives";
-import Algo from "./components/Trading";
-import Features from "./components/Features";
-// import Exchange from "./components/Exchange";
-import Investors from "./components/Investors";
-import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Trading from "./components/Trading";
-import BuyAlgo from "./components/BuyAlgo";
-import Roadmap from "./components/Roadmap";
-import Email from "./components/Email";
-import { BrowserRouter as Router, Route, Switch, BrowserRouter, Routes, Navigate } from 'react-router-dom'; 
+import {
+  BrowserRouter as Router,
+  Route,
+  BrowserRouter,
+  Routes,
+
+} from "react-router-dom";
+import Redirect from "./components/Redirect/Redirect";
+import MainApp from "./components/MainApp";
 
 function App() {
   const [dailyVolume, setDailyVolume] = useState(0);
@@ -71,23 +65,16 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/liquidity" Component={()=>{window.location.href = 'https://app.fxdx.exchange/buy/?ref=fxdx';
-    return null;}}/>
+        <Route
+          path="/liquidity"
+          exact
+          element={<Redirect />}
+        />
+        <Route path="*" element={<MainApp />}></Route>
       </Routes>
-    <div className="App">
-      <Nav />
-      <Hero />
-      <Email/>
-      <BattleTested dailyCount={dailyCount} totalVolume={totalVolume} />
-      <Derivatives />
-      <Trading />
-      <Features />
-      <Roadmap />
-      <Investors />
-      <Footer />
-    </div>
     </BrowserRouter>
   );
 }
 
 export default App;
+//http://localhost:3000/liquidity
